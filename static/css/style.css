@@ -44,9 +44,9 @@ body {
 }
 
 .user-message {
-    color: #0f0; /* Verde para los mensajes del usuario */
+    color: #0f0;
 }
 
 .bot-message {
-    color: #f00; /* Rojo para los mensajes del bot */
+    color: #f00;
 }
