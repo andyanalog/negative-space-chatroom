@@ -13,3 +13,13 @@ This project is a Flask-based web application that simulates a chatroom inspired
 - Python
 - Flask
 - Transformers library (Hugging Face)
+
+
+## How It Works
+- GPT-2 Model: The application uses the GPT-2 model from Hugging Face's Transformers library to generate responses.
+- Prompt: A dark and melancholic prompt is used to guide the bot responses.
+- Bot Selection: If the user does not specify a bot, one is chosen randomly from a predefined list.
+- Conversation Memory: Each bot keeps track of its own conversation history.
+
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
