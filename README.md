@@ -21,26 +21,31 @@ This project is a Flask-based web application that simulates a chatroom inspired
    ```bash
    git clone https://github.com/andyanalog/negative-space-chatroom.git
 
- **Navigate to the project directory**
+2. **Navigate to the project directory**
+   ```bash
    cd negative-space-chatroom
    
- **Create a virtual enviroment (optional but recommended)**
-  python -m venv venv
+3. **Create a virtual enviroment (optional but recommended)**
+   ```bash
+   python -m venv venv
 
- **Activate your virtual enviroment (windows)**
+4. **Activate your virtual enviroment (windows)**
+   ```bash
    venv\Scripts\activate
 
- **Install the required packages**
+5. **Install the required packages**
+   ```bash
    pip install -r requirements.txt
 
 ## Usage
 
 1. **Run the Application**
+    ```bash
     python app.py
 
-   This application will start on **http://127.0.0.1:5000/**
+This application will start on **http://127.0.0.1:5000/**
 
-2. **Interact with the Chatroom**
+3. **Interact with the Chatroom**
 
     Open your web browser and navigate to http://127.0.0.1:5000/ to start chatting with the bots.
 
