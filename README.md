@@ -43,8 +43,6 @@ This project is a Flask-based web application that simulates a chatroom inspired
     ```bash
     python app.py
 
-This application will start on **http://127.0.0.1:5000/**
-
 3. **Interact with the Chatroom**
 
     Open your web browser and navigate to http://127.0.0.1:5000/ to start chatting with the bots.
