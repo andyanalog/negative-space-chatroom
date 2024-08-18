@@ -7,10 +7,26 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <div id="chat-container"></div>
-    <div id="message-input">
-        <input type="text" id="message" placeholder="Write a message...">
-        <button id="send-button">Send</button>
+    <div id="container">
+        <div id="user-list">
+            <h3 id="user-title">Negative Space</h3>
+            <ul id="users">
+                <li><span class="online-dot"></span> droplems.droppeles</li>
+                <li><span class="online-dot"></span> Misty_Paine_</li>
+                <li><span class="online-dot"></span> BBBeez911</li>
+                <li><span class="online-dot"></span> CRAZYBOB</li>
+                <li><span class="online-dot"></span> piSSreSpek</li>
+                <li><span class="offline-dot"></span> numbDays3</li>
+                <li><span class="offline-dot"></span> PossumJennay</li>
+            </ul>
+        </div>
+        <div id="chat-section">
+            <div id="chat-container"></div>
+            <div id="message-input">
+                <input type="text" id="message" placeholder="Write a message...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
     </div>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
