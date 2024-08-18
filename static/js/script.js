@@ -14,11 +14,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const message = messageInput.value;
         if (message.trim() === '') return;
 
-        // Agregar mensaje del usuario al chat
+        // User message
         chatContainer.innerHTML += `<div class="message user-message">You: ${message}</div>`;
         messageInput.value = '';
 
-        // Enviar mensaje al servidor
+        // Server message
         const response = await fetch('/chat', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         const data = await response.json();
 
-        // Agregar respuesta del bot al chat
+        // Bot reply message
         chatContainer.innerHTML += `<div class="message bot-message">${data.response}</div>`;
         chatContainer.scrollTop = chatContainer.scrollHeight;
     }
