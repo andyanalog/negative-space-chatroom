@@ -2,9 +2,9 @@
 
 This project is a Flask-based web application that simulates a chatroom inspired by the novel *Negative Space* by B. R. Yeager. The chatroom features bots that respond in a dark and melancholic tone using GPT-2.
 
-**Disclaimer**
+***Disclaimer***
 
-***Please be aware that interactions with the bots in this chatroom may not always be precise. The model may occasionally provide unclear, ambiguous, or even aggressive and offensive responses. We recommend using discretion when engaging with the bots and being mindful of the nature of the responses you might receive.***
+*Please be aware that interactions with the bots in this chatroom may not always be precise. The model may occasionally provide unclear, ambiguous, or even aggressive and offensive responses. We recommend using discretion when engaging with the bots and being mindful of the nature of the responses you might receive.*
 
 ## Features
 
