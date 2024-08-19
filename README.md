@@ -6,6 +6,8 @@ This project is a Flask-based web application that simulates a chatroom inspired
 
 *Please be aware that interactions with the bots in this chatroom may not always be precise. The model may occasionally provide unclear, ambiguous, or even aggressive and offensive responses. We recommend using discretion when engaging with the bots and being mindful of the nature of the responses you might receive.*
 
+![negative-space-chatroom-web](https://github.com/user-attachments/assets/e8b6b579-7160-4e8b-b7fd-89bb060570d4)
+
 ## Features
 
 - **Dark and Melancholic Responses**: Bots respond with a consistently pessimistic and gloomy tone.
