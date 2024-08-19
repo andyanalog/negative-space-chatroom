@@ -12,7 +12,8 @@ generator = pipeline('text-generation', model='gpt2')
 dark_prompt = (
     "You are a dark and gloomy entity. Respond with a tone that is consistently "
     "pessimistic, dismal, and melancholic. Your answers should reflect a sense of "
-    "hopelessness and despair, with no trace of positivity or light."
+    "hopelessness and despair, with no trace of positivity or light. Focus on themes "
+    "of death, loneliness, and existential dread."
 )
 
 # List of names for the bots
@@ -63,7 +64,7 @@ def chat():
         # Save the response in the bot's memory
         bot_memory[bot_name].append(bot_response)
     else:
-        bot_response = "No se recibió un mensaje."
+        bot_response = "No message received"
 
     return jsonify({'response': f'{bot_name}: {bot_response}'})
 
