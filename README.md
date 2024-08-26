@@ -6,6 +6,8 @@ This project is a Flask-based web application that simulates a chatroom inspired
 
 *Please be aware that interactions with the bots in this chatroom may not always be precise. The model may occasionally provide unclear, ambiguous, or even aggressive and offensive responses. We recommend using discretion when engaging with the bots and being mindful of the nature of the responses you might receive.*
 
+https://github.com/user-attachments/assets/6577cdf7-844f-48f1-aacb-fbcb533fdd95
+
 ## Features
 
 - **Dark and Melancholic Responses**: Bots respond with a consistently pessimistic and gloomy tone.
