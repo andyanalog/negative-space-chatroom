@@ -19,6 +19,7 @@ https://github.com/user-attachments/assets/6577cdf7-844f-48f1-aacb-fbcb533fdd95
 - Python
 - Flask
 - Transformers library (Hugging Face)
+- Pytorch
 
 ## Installation
 
